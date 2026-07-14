@@ -25,7 +25,6 @@
   },
   "scripts": {
     "postinstall": "node bin/postinstall.js",
-    "push": "git add . && git commit -m \"update\" || true && git push",
-    "new-doc": "new-doc"
+    "push": "git add . && git commit -m \"update\" || true && git push"
   }
 }
