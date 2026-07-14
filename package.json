@@ -1,0 +1,19 @@
+{
+  "name": "shane-new-doc",
+  "version": "1.1.0",
+  "type": "module",
+  "description": "Create Astro Starlight docs from CLI",
+  "bin": {
+    "new-doc": "bin/new-doc.js"
+  },
+  "files": [
+    "bin"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "postinstall": "node bin/postinstall.js",
+    "push": "git add . && git commit -m \"update\" || true && git push"
+  }
+}
