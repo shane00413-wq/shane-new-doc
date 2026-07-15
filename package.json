@@ -1,6 +1,6 @@
 {
   "name": "shane-new-doc",
-  "version": "1.1.0",
+  "version": "1.1.2",
   "type": "module",
   "description": "Create Astro Starlight docs from CLI",
   "packageManager": "pnpm@10.0.0",
